@@ -12,8 +12,10 @@ namespace Linq_Gavilanch2
         static void Main(string[] args)
         {
             Delegados delegados = new Delegados();
-            delegados.Main();
+            // delegados.Main();
 
+            FuncionesAnonimas fa = new FuncionesAnonimas();
+            fa.Main();
             Console.Read();
         }
     }
