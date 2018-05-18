@@ -19,5 +19,18 @@ namespace Linq_Gavilanch2
 
         public string Nombre { get => nombre; set => nombre = value; }
         public short Edad { get => edad; set => edad = value; }
+
+        override
+        public string ToString() {
+            return this.nombre + ", edad: " + this.edad.ToString();
+        }
+
+        public static void Imprimir_Lista(List<Persona> personas)
+        {
+            foreach (var persona in personas)
+            {
+                Console.WriteLine(persona.ToString());
+            }
+        }
     }
 }

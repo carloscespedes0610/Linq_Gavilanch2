@@ -15,7 +15,12 @@ namespace Linq_Gavilanch2
             // delegados.Main();
 
             FuncionesAnonimas fa = new FuncionesAnonimas();
-            fa.Main();
+            //fa.Main();
+
+
+            Linq l = new Linq();
+            l.Main();
+
             Console.Read();
         }
     }
